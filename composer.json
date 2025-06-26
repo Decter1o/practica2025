@@ -1,0 +1,17 @@
+{
+    "name": "petre/practic",
+    "type": "project",
+    "require-dev": {
+        "phpmailer/phpmailer": "^6.10"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Petre\\Practic\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "ramsey/uuid": "^4.8"
+    }
+}
